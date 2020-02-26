@@ -1,0 +1,160 @@
+body {
+    font-family: sans-serif;
+}
+
+
+
+/* TOPO */
+
+.faixa1 {
+    background-color: #122034;
+    color: white;
+    font-size: 10pt;
+    padding: 8px 0;
+}
+
+.icone1 {
+    background: url(img/icone_fb.PNG) no-repeat left center;
+    background-size:contain;
+    padding: 0 10px 0 22px;    
+}
+
+.icone2 {
+    background: url(img/icone_phone.PNG) no-repeat left center;
+    background-size:contain;
+    padding: 0 0px 0 22px;    
+}
+
+
+/* MENU */
+
+nav {
+    background-color: #EEEEEE;
+    padding: 12px 0;
+}
+
+.menu {
+    color: #122034;
+    text-transform: uppercase;
+    font-size: 11pt;
+    padding: 0 10px;
+}
+
+.menu:hover {
+    text-decoration: none;
+}
+
+.margem1 {
+    margin: 0 0 0 90px;
+}
+
+
+
+
+/* CONTEÚDO CENTRAL */
+
+.bloco {
+    background-image: url(img/areas_de_atuacao.jpg);
+    background-repeat: no-repeat;
+}
+
+.bloco_2 {
+    background-color: white;
+    border-radius: 10px 10px 0 0 ;
+    margin: 250px 0 0 0;
+    box-shadow: -2px 0px 5px #e8e8e8;
+    padding: 20px 0 0 20px;
+}
+
+.bloco3 {
+    padding: 20px 0 0 10px;
+}
+
+.bloco4 {
+    margin: 0 0 0 10px;
+}
+
+.bloco5 {
+    margin: 30px 0 0 50px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+
+/* FORMULÁRIO */
+
+.bloco6 {
+    background-color:  #F2F2F2;
+    width: 600px;
+    text-align: center;
+    margin: 70px 0;
+    padding: 20px 0;
+}
+
+.subtitulo1 {
+    color: #305A7E;
+    font-weight: bold;
+}
+
+.info1 {
+    font-size: 10pt;
+}
+
+form {
+    margin: 20px 70px
+}
+
+
+
+
+/* UNIDADES */
+
+.unidades {
+    background-color: #122034;
+    color: white;
+    padding: 20px 0;
+}
+
+.icone4 {
+    background: url(img/facebook.png) no-repeat left center;
+    background-size:contain;
+    padding: 0 0px 0px 28px;
+    margin: 20px 0;
+}
+
+.icone5 {
+    background: url(img/telefone_do_escritorio.png) no-repeat left center;
+    background-size:contain;
+    padding: 0 0px 0 28px;    
+}
+
+.icone6 {
+    background: url(img/enviar.png) no-repeat left center;
+    background-size:contain;
+    padding: 0 0px 0 28px;    
+}
+
+.icone7 {
+    background: url(img/placeholder.png) no-repeat left center;
+    background-size:contain;
+    padding: 0 0px 0 28px;    
+}
+
+
+
+/* FOOTER */
+
+footer {
+    padding: 40px 0;
+    font-size: 10pt;
+}
+
+.opacidade {
+    opacity: 0.4;
+    width: 150px;
+}
+

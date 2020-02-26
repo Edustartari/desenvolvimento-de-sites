@@ -1,0 +1,252 @@
+body {
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1120px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+/* Menu */
+
+.head {
+    background-image: url(img/template.PNG);
+    height: 600px;
+}
+
+#opacity {
+    opacity: 0.5;
+    background-color: black;
+    height: 80px;
+    position: fixed;
+    z-index: 2;
+    width: 1120px;       
+}
+
+nav {
+    position: fixed;
+    z-index: 3;
+    width: 1120px;
+    padding: 30px;
+    margin-left: 70px;
+}
+
+.botoes {
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.botoes a {
+    color: white;
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+.botoes a:hover {
+    color: #2198CC;
+    border-bottom: 2px solid #2198CC;
+    padding-bottom: 5px;
+}
+
+.botoes span {
+    font-size: 19pt;
+    font-weight: normal;
+}
+
+
+
+
+/* Áreas de atuação */
+
+.areas {
+    padding: 30px;
+}
+
+.topico {
+    width: 29%;
+    margin: 20px;
+    text-align: center;
+    float: left;
+}
+
+.topico a {
+    text-decoration: none;
+    color: #59abe6;
+    line-height: 25px;
+}
+
+.topico h3 {
+    font-weight: normal;
+    color: #666666
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+
+/* Sobre */
+
+.sobre {
+    background-image: url(img/justica.jpg); 
+    background-size: 1400px;
+}
+
+.text1 {
+    padding: 30px 50px;
+    color: white;
+}
+
+.text1 h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.sobre2 {
+    width: 60%;
+    float: left;
+    margin-left: 10px;
+}
+
+.sobre h4 {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.sobre2 p {
+    font-size: 11pt;
+    line-height: 25px;
+}
+
+.info {
+    width: 25%;
+    float: left;
+    margin-left: 40px;
+}
+
+.info p {
+    font-size: 11pt;
+    line-height: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+
+/* Notícias */
+
+.noticias {
+    padding: 10px;
+    background-color: #E2E2E2;
+}
+
+.bloco1 {
+    padding-left: 60px;
+}
+
+.noticias h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #666666;
+}
+
+.text2 {
+    width: 27%; 
+    color: #505050;
+    float: left;
+    padding: 0px 25px;
+    margin-bottom: 60px;
+}
+
+.text2 p {
+    font-size: 10pt;
+    line-height: 20px;
+}
+
+.text2 span {
+    font-size: 9pt;
+    font-style: italic;
+}
+
+.text2 img {
+    width: 280px;
+}
+
+
+.clear {
+    clear: both;
+}
+
+
+
+/* Contato */
+
+.contato {
+    background-image: url(img/contato.jpeg);
+    background-size:cover;
+}
+
+.bloco2 {
+    padding: 40px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+
+.bloco2 h3 {
+    font-size: 30px;
+}
+
+.input {
+    width: 180px;
+    height: 25px;
+}
+
+.enviar {
+    width: 345px;
+    height: 30px;
+    opacity: inherit;
+}
+
+
+
+/* Footer */
+
+.rodape {
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.bloco3 {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.copyright {
+    float: left;
+    margin-left: 30px;
+    font-size: 10pt;
+}
+
+.icones {
+    float: right;
+    margin-right: 30px;
+}
+
+.clear {
+    clear: both;
+}

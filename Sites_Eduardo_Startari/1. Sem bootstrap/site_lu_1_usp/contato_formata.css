@@ -1,0 +1,150 @@
+*{
+    font-family: sans-serif;
+    margin: 0 auto;
+}
+
+
+/*HEADER*/
+
+header {
+    background-color: #008BA1;
+}
+
+.container1 {
+    margin: 0 auto;
+    padding: 40px 0 0 0;
+    width: 920px;
+}
+
+.left {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.logo {
+    margin: 0 40px 40px 0;
+}
+
+.texto1 {
+    color: white;
+    margin: 10px 50px 0 0;
+    line-height: 20px;
+}
+
+.caixaAlta {
+    text-transform: uppercase;
+    font-size: 10pt;   
+}
+
+nav {
+    margin: 0 auto;
+}
+
+.btn1 {
+    display: inline-block;
+    width: 12%;
+    height: 50px;
+    color: white;
+    background-color: #055E6F;
+    text-align: center;
+    line-height: 50px;
+}
+
+.menu {
+    color: white;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+.faixa1 {
+    height: 10px;
+    background-color: #FCB421;
+}
+
+.bloco4 {
+    margin: 0 0 0 60px;
+}
+
+
+
+/*CONTEUDO CENTRAL*/
+
+.container2 {
+    margin: 0 auto;
+    padding: 10px 0 20px 0;
+    width: 920px;
+}
+
+.margem {
+    margin: 10px 0 0px 10px;
+    width: 800px;
+}
+
+.cinza {
+    color: #333333;
+}
+
+form {
+    margin: 0 0 20px 0;
+}
+
+
+
+
+
+/*FOOTER*/
+
+footer {
+    background-color: #055E6F;
+}
+
+.container3 {
+    margin: 0 auto;
+    padding: 10px 0 20px 0;
+    width: 920px;
+}
+
+.bloco1 {
+    width: 23%;
+    height: 172px;
+    float: left;
+    margin: 0 10px;
+    background-color: #044B59;
+    padding: 10px;
+    color: white;
+    line-height: 22px;
+    font-size: 9pt;
+}
+
+.bloco2 {
+    width: 40%;
+    float: left;
+    margin: 0 10px;
+    background-color: #044B59;
+    padding: 10px;
+    color: white;
+    line-height: 22px;
+    font-size: 9pt;
+}
+
+.bloco3 {
+    width: 23%;
+    float: left;
+    margin: 0 10px;
+    background-color: #044B59;
+    padding: 10px;
+}
+
+h4 {
+    color: #FF8612;
+    font-size: 14pt;
+}
+
+.borda {
+    border-bottom: 1px dotted #315C84;
+    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
+}

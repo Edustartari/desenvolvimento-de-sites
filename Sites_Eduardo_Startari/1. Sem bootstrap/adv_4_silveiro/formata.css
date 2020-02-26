@@ -1,0 +1,390 @@
+body {
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+
+
+
+
+/* HEADER */
+
+header {
+    background-color: #222222;
+}
+
+.largura_header {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.info_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.info_header p {
+    color:#8f8f8f;
+    display: block;
+    margin: 22px 30px 22px 5px;
+    font-size: 10pt;
+    letter-spacing: 1px;
+}
+
+.icone_social_media {
+    margin: 0px 5px;
+}
+
+
+
+
+
+/* MENU */
+
+nav {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.logo {
+    margin: 22px 0px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 10pt;
+    color: #6E737D;
+    letter-spacing: 1px;
+}
+
+li a:hover {
+    color: #3F84DA;
+}
+
+
+
+
+
+/* BANNER */
+
+.banner {
+    background-image: url(img/banner_home.jpg);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    height:600px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.saiba_mais {
+    width: 190px;
+    text-align: center;
+    background-color: #1674D1;
+    margin: 0 0 130px 0;
+}
+
+.saiba_mais a {
+    color: white;
+    display: block;
+    padding: 20px 0;
+    text-decoration: none;
+    font-size: 10pt;
+    letter-spacing: 1px;
+}
+
+.saiba_mais a:hover {
+    background-color: rgb(24, 93, 161);
+}
+
+
+
+
+
+/* BLOCO WHITE PAPER */
+
+.bloco_wp {
+    margin: 70px auto;
+    width: 1000px;
+}
+
+.bloco_wp h1 {
+    text-align: center;
+    color: #1E73C8;
+    letter-spacing: 2px;
+    font-size: 40pt;
+    font-weight: lighter;
+}
+
+.bloco_wp2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(206, 218, 218);
+    border-bottom: 1px solid rgb(206, 218, 218);
+}
+
+.imagem_wp {
+    margin: 0 70px 0 0;
+}
+.text_wp {
+    color: rgb(142, 151, 151);
+    font-size: 10pt;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+
+.text_wp h3 {
+    color: #1E73C8;
+    font-size: 18pt;
+}
+
+
+
+
+
+/* DESTAQUES parte 1 */
+
+.destaques {
+    margin: 80px auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.destaques div {
+    text-align: center;
+    width: 300px;
+}
+
+.destaques h3 {
+    color: #1E73C8;
+    font-weight: lighter;
+    font-size: 18pt;
+}
+
+.destaques p {
+    color: rgb(82, 83, 83);
+    font-size: 10pt;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+
+
+
+
+
+/* DESTAQUES parte 2 */
+
+.destaques2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.destaques2_imagem{
+    background-image: url(img/silveiro_escritorio.JPG);
+    background-repeat: repeat;
+    background-attachment: local;
+    background-size: cover;
+    width: 1500px;
+}
+
+.destaques2_bloco2 {
+    background-color: #5B6065;
+    height: 605px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #F9F6F5;
+    padding: 0 0 0 30px;
+}
+
+.destaques2_items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.destaques2_items div img {
+    display: block;
+    margin: 0 20px 60px 0;
+}
+
+
+
+
+
+/* ARTIGOS E NOTÍCIAS */
+
+.cor_fundo {
+    background-color: #F7F7F7;
+}
+
+.intro_noticias {
+    margin: 0px auto;
+    width: 1200px;
+    padding-top: 40px;
+}
+
+.intro_noticias h1 {
+    text-align: center;
+    color: #1E73C8;
+    letter-spacing: 2px;
+    font-size: 40pt;
+    font-weight: lighter;
+}
+
+.intro_noticias p {
+    color: rgb(64, 68, 68);
+    font-size: 11pt;
+    line-height: 26px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.noticias {
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 70px;
+    width: 1200px;
+}
+
+.noticias article {
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0 0px 0;
+}
+
+.texto_noticia {
+    background-color: white;
+    padding: 20px 20px 10px 20px;
+}
+
+.data {
+    background-color: #1674D1;
+    color: #B8D4DF;
+    display: block;
+    padding: 10px 0px 10px 18px;
+    width: 65px;
+    letter-spacing: 2px;
+}
+
+.texto_noticia h4 {
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 13pt;
+    letter-spacing: 1px;
+}
+
+.chamada {
+    color: rgb(142, 151, 151);
+    line-height: 26px;
+    font-size: 11pt;
+}
+
+.texto_noticia button {
+    color: #1E73C8;
+    border-color: #1E73C8;
+    background-color: white;
+    padding: 13px 30px;
+}
+
+.texto_noticia button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #1E73C8;
+}
+
+
+
+
+
+/* RODAPÉ 1 */
+
+.rodape1 {
+    background-color: #222222;
+    padding: 70px 0;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 1200px;
+    justify-content: space-around;
+}
+
+.contatos h5 {
+    color: #D0D0D0;
+}
+
+.contatos2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contatos2 p {
+    color: rgb(138, 139, 139);
+    font-size: 10pt;
+    letter-spacing: 1px;
+}
+
+.contatos2 img {
+    display: block;
+    margin: 0 10px 0 0;
+}
+
+
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #333333;
+}
+
+.rodape2 {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;    
+}
+
+footer p {
+    color: rgb(138, 139, 139);
+}

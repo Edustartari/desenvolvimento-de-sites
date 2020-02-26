@@ -1,0 +1,199 @@
+body {
+    margin: 0 auto;
+}
+
+.faixa1 {
+    background-color: #198FB1;
+    padding: 8px 0;
+}
+
+
+
+/* HEADER */
+
+.header {
+    padding: 10px 0 5px 0;
+    background-color: #EFEEEE;
+}
+
+nav {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: #888888;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: 0 8px;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.menu {
+    display: inline;
+}
+
+.link:hover {
+    background-color: white;
+    padding: 5px 0px 40px 0px;
+}
+
+
+
+
+/* CABEÇA */
+
+.cabeca {
+    background-image: url(img/cabeca_2.jpg);
+    background-size:cover;
+    height: 654px;
+}
+
+.img1 {
+    margin: 80px 0 40px 210px;
+}
+
+.title {
+    margin: 0px 0 0 120px;
+    color: white;
+    font-weight: bold;
+    font-size: 25pt;
+}
+
+
+
+
+/* MISSÃO VISÃO VALORES */
+
+.faixa2 {
+    background-color: #EFEEEE;
+}
+
+.bloco2 {
+    margin: 40px 0 10px 0px;
+    padding-left: 20px;
+}
+
+.icone {
+    margin-left: 60px;
+}
+
+.icone:hover {
+    box-shadow: 1px 1px 5px grey;
+    border-radius: 80px;
+}
+
+.title2 {
+    color: #198FB1;
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bloco3 {
+    padding-bottom: 40px;
+}
+
+.botao {
+    background-color: #198FB1;
+    color: white;
+    font-weight: bold;
+    font-size: 16pt;
+    padding: 9px 45px;
+    margin: 30px 0 10px 370px;
+    border: 2px solid #198FB1;
+}
+
+.botao:hover {
+    color: #198FB1;
+    background-color: white;
+    border: 2px solid #198FB1;
+}
+
+
+
+
+
+/* ÚLTIMAS NOTÍCIAS */
+
+.espaco {
+    margin: 80px 0 0 0;
+}
+
+.noticias {
+    color: #198FB1;
+    font-weight: bold;
+    text-align: center;
+}
+
+.legenda {
+    text-align: center;
+}
+
+.margem {
+    margin: 30px 0 90px 0px;
+}
+
+
+
+
+
+/* MAPA */
+
+.mapa {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* FOOTER */
+
+.footer {
+    color: white;
+    background-color: #198FB1;
+    padding:40px 0;
+}
+
+label {
+    color: black
+}
+
+.input {
+    color: black;
+}
+
+h2 {
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.topics {
+    text-decoration: none;
+    color: white;
+    font-size: 10pt;
+    border-bottom: 1px solid #f8f8f8;
+}
+
+.topics:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.largura {
+    width: 31%;
+    float: left;
+    margin: 0 21px 0 0;
+}
+
+.clear {
+    clear: both
+}

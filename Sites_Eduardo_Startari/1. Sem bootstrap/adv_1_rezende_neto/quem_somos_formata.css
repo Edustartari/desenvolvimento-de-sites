@@ -1,0 +1,159 @@
+body {
+    margin: 0 auto;
+}
+
+header {
+    width: 1251px;
+    margin: 0 auto;
+}
+
+#cabeca {
+    position: fixed;
+    z-index: 1;
+}
+
+.menu {
+    position: relative;
+    z-index: 2;
+}
+
+.menu a {
+    margin: 0 15px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu2:hover {
+    color: #ff4a00;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ff4a00;
+}
+
+.menu img {
+    transform: translate(35px,55px);
+    margin-right: 80px;
+}
+
+#container {
+    position: relative;
+    z-index: 3;
+    background-color: white;
+    padding: 10px 40px 0 40px;
+    width: 1251px;
+    margin: 0 auto;
+}
+
+.intro {
+    margin-top: 100px;
+    position: relative;
+    z-index: 4;
+    background-color: #AF3B00;
+    border: 1px solid #de4e05;
+    height: 50px;
+}
+
+.intro p {
+    color: white;
+    width: 1251px;
+    padding-left: 40px;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.perfil {
+    width: 700px;
+}
+
+.perfil h1 {
+    font-size: 28px;
+    color: grey;
+    text-align: center;
+}
+
+h3 {
+    font-size: 23px;
+    color: grey;
+}
+
+.clear {
+    clear: both
+}
+
+
+.membros {
+    border-top: 1px solid #ff4a00;
+    padding-top: 30px;
+    margin: 10px 0 50px 0;
+}
+
+.membros img {
+    margin-right: 70px;
+}
+
+.right {
+    float: right
+}
+
+.bottom {
+    background-color: #FCFCFC;
+    border-top: 1px solid #ff4a00;
+}
+
+.titulo4 {
+    color: #ff4a00;
+}
+
+.bloco4 {
+    width: 260px;
+    margin-right: 40px;
+    float: left
+}
+
+li {
+    list-style-image: url(img/list-style.PNG);
+}
+
+.lista li a {
+    text-decoration: none;
+    color: black;
+}
+
+.lista li a:hover {
+    color: #ff4a00;
+}
+
+.display {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.texto {
+    display: inline-block;
+    width: 800px;
+    margin: 50px 0 20px 200px;
+}
+
+.termos {
+    color: #ff4a00;
+    text-decoration: none
+}
+
+.left2 {
+    transform: translate(950px, -30px)
+}
+
+.text3 {
+    width: 1251px;
+    margin: 0 auto;
+}
+
+footer {
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+    background-color: #1C0704;
+    padding: 10px 40px 10px 40px;
+    color: white;
+}

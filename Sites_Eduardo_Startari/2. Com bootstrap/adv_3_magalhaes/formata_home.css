@@ -1,0 +1,176 @@
+body {
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+
+header {
+    border-bottom: 7px solid #F58634;
+}
+
+nav {
+    padding: 30px 0;
+    display: inline;
+}
+
+nav a {
+    font-weight: bold;
+    color: #354656;
+    margin-right: 50px;
+}
+
+nav a:hover {
+    color: #F58634;
+    text-decoration: none;
+}
+
+nav img {
+    margin-right: 80px;
+}
+
+
+
+
+/* CABEÇA */
+
+.img_cabeca {
+    height:100%;
+	width:100%;
+	margin:auto;
+}
+
+.faixa1 {
+    background-color:#222629;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+    font-size: 20pt;
+}
+
+
+
+
+/* ÁREAS DE ATUAÇÃO */
+
+h1 {
+    color: #354656;
+    text-align: center;
+}
+
+.legenda {
+    color: #9EA5A1;
+    text-align: center;
+}
+
+.col-sm-3 {
+    margin: 30px 0;
+}
+
+.box1 {
+    background-color: #F7F7F7;
+    text-align: center;
+    padding: 50px 0;
+    border: 1px solid #E4E8EA;
+    border-radius: 4px;
+}
+
+.box1:hover {
+    box-shadow: 1px 1px 4px #c9c9c9;
+}
+
+.text1 {
+    text-decoration: none;
+    color: #354656;
+    font-size: 14pt;
+}
+
+.text1:hover {
+    text-decoration: none;
+    color: #354656;
+}
+
+.img_areas:active {
+    position: relative;
+    top: 3px
+}
+
+.img_areas:hover {
+    position: relative;
+    bottom: 3px
+}
+
+.botao {
+    margin: 10px 0 20px 355px;
+    background-color: #5CA2E0;
+    color: white;
+    border: none;
+    padding: 12px 31px;
+    border-radius: 6px;
+    letter-spacing: 1px;
+}
+
+.botao:hover {
+    background-color: #65a9e5;
+}
+
+
+
+
+
+
+/* NOSSOS PROFISSIONAIS */
+
+.background {
+    background-color: #F7F7F7;
+    padding: 30px 0 30px 0;
+    margin: 30px 0 30px 0;
+    border-top: 1px solid #E4E8EA;
+    border-bottom: 1px solid #E4E8EA;
+}
+
+.profissionais {
+    color: #354656;
+    font-size: 13pt;
+}
+
+.profissionais:hover {
+    color: #4a92d1;
+    text-decoration: none;
+}
+
+.box2 {
+    text-align: left;
+    margin: 10px 0 0 15px;
+}
+
+.box3 {
+    margin: 5px 0 30px 0;
+}
+
+
+
+
+/* NOSSOS DESAFIOS */
+
+.box4 {
+    margin-top: 5px;
+    padding: 30px 0px;
+    background-color: #F7F7F7;
+    border-top: 1px solid #E4E8EA;
+}
+
+
+
+
+/* FOOTER */
+
+.faixa2 {
+    background-color:#344656;
+    padding: 25px 0;
+}
+
+.text2 {
+    padding: 20px 0;
+    color: #737F85;
+}

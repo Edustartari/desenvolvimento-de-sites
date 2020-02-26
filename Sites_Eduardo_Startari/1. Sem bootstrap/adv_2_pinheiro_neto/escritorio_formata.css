@@ -1,0 +1,330 @@
+body {
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+    width: 850px;
+}
+
+
+
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #151718;
+    padding: 50px 0;  
+}
+
+
+
+
+
+
+/* Navegação */
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    width: 850px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #D2D2D2;
+    font-weight: normal;
+    font-size: 8pt;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    background-color: #1C1D1E;
+    padding: 12px 28px; 
+    border-right: 1px solid #3C3C3B;
+}
+
+nav a:hover {
+    background-color: #242525;
+    color: #B1A565
+}
+
+
+
+
+/* Conteúdo central */
+
+.central {
+    display: flex;
+    margin-top: 200px;
+    justify-content:flex-start
+    
+}
+
+h1 {
+    color: #ADA882;
+    text-transform: uppercase;
+    font-size: 18pt;
+    font-weight: normal
+}
+
+.p1 {
+    width: 250px;
+    font-size: 10pt;
+    color: #1C1D1E;
+    line-height: 18px;
+    font-family: sans-serif;
+}
+
+.folder_titulo {
+    color: #ADA882;
+    font-weight: normal
+}
+
+.folder {
+    float: left
+}
+
+.box1 {
+    width: 250px
+}
+
+button {
+    background-color: #ADA882;
+    color: white;
+    border-style: none;
+    padding: 8px 18px;
+}
+
+button:hover {
+    background-color: #434344;
+    cursor: pointer;
+}
+
+.imagem_sp {
+    float: left;
+    margin-right: calc(-150vw + 50%);
+}
+
+.left3 {
+    float: left;
+    margin-right: 80px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+
+
+/* Visão */
+
+.imagem_visao {
+    margin: 50px 0 50px 90px;
+}
+
+
+
+
+
+/* Linha do Tempo */
+
+.tempo {
+    margin: 50px 0 50px 0;
+    text-align: center;
+}
+
+
+
+
+
+
+/* Responsabilidade Social */
+
+.central2 {
+    display: flex;
+    justify-content:flex-end;
+    margin: 150px 0 150px 0;
+}
+
+.imagem_resp {
+    float: left;
+    margin-left: calc(-100vw + 50%);
+}
+
+.contrucao {
+    float: left;
+    margin-left: 70px;
+}
+
+.cidadania {
+    width: 200px;
+}
+
+.p2 {
+    width: 280px;
+    font-size: 10pt;
+    color: #1C1D1E;
+    line-height: 18px;
+    font-family: sans-serif;
+}
+
+.projetos {
+    float: left;
+    width: 250px;
+    margin: 20px 0 0 80px;
+}
+
+
+
+
+/* Responsabilidade Social */
+
+.gestao {
+    width: 550px;
+}
+
+.p3 {
+    font-size: 10pt;
+    color: #1C1D1E;
+    line-height: 18px;
+    font-family: sans-serif;
+    float: left;
+}
+
+.imagem_3 {
+    float: left;
+    margin-right: calc(-150vw + 50%);
+    margin-left: 50px;
+    transform: translate(0, -90px)
+}
+
+
+
+
+
+
+/* Endereços */
+
+.central3 {
+    display: flex;
+    justify-content:center;
+    margin: 100px 0 100px 0;
+}
+
+.left4 {
+    float: left;
+    width: 40%;
+    font-size: 10pt;
+    color: #1C1D1E;
+    line-height: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0 10px;
+}
+
+
+.p4 {
+    width: 200px;
+    margin-left: 50px;
+}
+
+
+
+
+
+/* Footer */
+
+footer {
+    margin: 0 auto;
+    background-color: #EEEEEE;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.rodape {
+    margin: 0 auto;
+    width: 850px;
+}
+
+.margem {
+    padding: 40px 0 50px 0;
+}
+
+.linha {
+    border-bottom: 1px solid #B8A683;
+    padding-bottom: 7px;
+    width: 70%;
+    display: block;
+}
+
+.linha2 {
+    border-bottom: 1px solid #B8A683;
+    padding-bottom: 7px;
+    width: 70%;
+    display: block;
+    font-size: 9pt;
+}
+
+.linha2 a {
+    text-decoration: none;
+    color: #444230
+}
+
+.linha2 a:hover {
+    color: #B8A683;
+    text-decoration:underline;
+}
+
+h3 {
+    font-size: 9pt;
+}
+
+h3 a {
+    text-decoration: none;
+    color: #B8A683
+}
+
+h3 a:hover {
+    color: #444230;
+}
+
+.left {
+    float: left;
+    width: 20%;
+}
+
+.left2 {
+    float: left;
+    width: 20%;
+    margin-left: -30px;
+}
+
+.clear {
+    clear: both;
+}
+
+.box7 {
+    float: right;
+    width: 400px;
+    transform: translate(60px,0)
+}
+
+.box8 {
+    width: 180px;
+    float: left;
+}
+
+.cidades {
+    color: #B8A683;
+    font-size: 9pt;
+}
+
+.info {
+    color: #5d5b45;
+    font-size: 9pt;
+}

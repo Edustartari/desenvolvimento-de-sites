@@ -1,0 +1,343 @@
+body {
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+
+
+
+
+/* HEADER */
+
+header {
+    background-color: #222222;
+}
+
+.largura_header {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.info_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.info_header p {
+    color:#8f8f8f;
+    display: block;
+    margin: 22px 30px 22px 5px;
+    font-size: 10pt;
+    letter-spacing: 1px;
+}
+
+.icone_social_media {
+    margin: 0px 5px;
+}
+
+
+
+
+
+/* MENU */
+
+nav {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.logo {
+    margin: 22px 0px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 10pt;
+    color: #6E737D;
+    letter-spacing: 1px;
+}
+
+li a:hover {
+    color: #3F84DA;
+}
+
+
+
+
+
+/* BANNER */
+
+.banner {
+    background-image: url(img/banner_escritorio.jpg);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: auto;
+    height:570px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.saiba_mais {
+    width: 800px;
+    text-align: left;
+    color: white;
+}
+
+.saiba_mais h1 {
+    letter-spacing: 3px;
+    font-weight: lighter;
+    font-size: 36pt;
+}
+
+span {
+    color: #1674D1;
+}
+
+
+
+
+
+/* MISSÃO */
+
+.missao {
+    margin: 30px auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h3 {
+    color: #3798D3;
+    font-size: 20pt;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.bloco_missao {
+    width: 70%;
+}
+
+.paragrafo {
+    color: rgb(74, 80, 80);
+    font-size: 10pt;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.titulo {
+    display: block;
+    padding: 0 0 8px 0;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.bloco_missao h3 {
+    width: 96%
+}
+
+
+
+
+
+/* UMA NOVA ESTRUTURA */
+
+.bloco_estrutura {
+    margin: 40px auto;
+    width: 1200px;
+    text-align: center;
+}
+
+
+
+
+
+/* NOSSA HISTÓRIA */
+
+.historia {
+    margin: 30px auto;
+    width: 1200px;
+    padding-top: 20px;
+}
+
+
+
+
+
+/* DESTAQUES parte 2 */
+
+.destaques2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.destaques2_imagem{
+    background-image: url(img/perfil_moderno_tradicional.jpg);
+    background-repeat: repeat;
+    background-attachment: local;
+    background-size: cover;
+    width: 2200px;
+}
+
+.destaques2_bloco2 {
+    background-color: #5B6065;
+    height: 605px;
+    color:white;
+    padding: 60px 20px 0 30px;
+}
+
+.destaques2_bloco2 p {
+    font-size: 10pt;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+
+
+
+
+/* ENVOLVIMENTO */
+
+.envolvimento {
+    margin: 30px auto;
+    width: 1200px;
+}
+
+.bloco_infra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bloco_infra p {
+    display: block;
+    width: 50%;
+    padding-right: 30px;
+}
+
+
+
+
+
+/* FUNDADOR */
+
+.fundador {
+    margin: 30px auto;
+    width: 1200px;
+    border-top: 1px solid #EBEBEB;
+    padding-top: 30px;
+}
+
+.bloco_fundador {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.bloco_fundador img {
+    margin: 25px 20px 0 0;
+}
+
+.foto_fundador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+.citacao {
+    display: block;
+    width: 70%;
+    margin: 25px 0px 0 0px;
+    border-left: 1px solid #1674D1;
+    padding: 0 0 0 10px;
+    color: gray;
+}
+
+
+
+
+/* RODAPÉ 1 */
+
+.rodape1 {
+    background-color: #222222;
+    padding: 70px 0;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 1200px;
+    justify-content: space-around;
+}
+
+.contatos h5 {
+    color: #D0D0D0;
+}
+
+.contatos2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contatos2 p {
+    color: rgb(138, 139, 139);
+    font-size: 10pt;
+    letter-spacing: 1px;
+}
+
+.contatos2 img {
+    display: block;
+    margin: 0 10px 0 0;
+}
+
+
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #333333;
+}
+
+.rodape2 {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;    
+}
+
+footer p {
+    color: rgb(138, 139, 139);
+}

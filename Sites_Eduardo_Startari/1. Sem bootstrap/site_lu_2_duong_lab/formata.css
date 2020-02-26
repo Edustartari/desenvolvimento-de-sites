@@ -1,0 +1,122 @@
+body {
+    background-color: #F1F1F1;
+}
+
+.container {
+    margin: 10px auto;
+    width: 940px;
+    background-color: white;
+    padding: 20px;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header p {
+    display: block;
+    width: 25%;
+    align-items: flex-end;
+    align-content: flex-end;
+    color: #666666;
+    font-size: 11pt;
+}
+
+h1 {
+    font-size: 23pt;
+    font-family: sans-serif;
+}
+
+
+
+/* MENU */
+nav img {
+    display: block;    
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    list-style-type: none;
+    font-family: sans-serif;
+    font-size: 10pt;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: white;
+    display: block;
+    padding: 11px 12px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: #333333;
+}
+
+
+
+
+/* MAIN CONTENT */
+article {
+    padding: 20px;
+    width: 650px;
+}
+
+article h3 {
+    font-family: sans-serif;
+    font-size: 16pt;
+}
+
+article img {
+    width: 100%;
+}
+
+article p {
+    text-align: justify;
+    color: #333333;
+    font-size: 13pt;
+}
+
+.main {
+    border-bottom: 3px solid black;
+    padding: 0 0 40px 0;
+    margin: 0 0 20px 0;
+}
+
+
+
+
+/* FOOTER */
+
+.info {
+    width: 23%;
+    margin: 0 15px 0 0px;
+}
+
+.bloco1 {
+    color: #666666;
+    display: flex;
+    flex-direction: row;
+    font-size: 11pt;
+}
+
+div span {
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: 11pt;
+}

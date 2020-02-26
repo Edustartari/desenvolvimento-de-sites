@@ -1,0 +1,128 @@
+body {
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+
+
+/* Header*/
+
+.faixa1 {
+    background-color: #151616;
+}
+
+.menu {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 15px 0 0 0;
+}
+
+.menu a {
+    color: #d0d0d0;
+    text-decoration: none;
+    padding: 0 15px 0 0; 
+    float: left;
+}
+
+.facebook {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.facebook a {
+    margin-bottom: 15px;
+    padding-left: 8px;
+    float: right;
+}
+
+.menu a:hover {
+    color: silver;
+    text-shadow: -1px -1px 
+}
+
+.faixa2 {
+    background-color: #F3F3F3;
+    box-shadow: 15px 1px 10px grey;
+}
+
+.cima {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 18px 0;
+}
+
+.cima a {
+    text-decoration: none;
+}
+
+.leonetti {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight:530;
+}
+
+.adv {
+    font-size: 25px;
+    color: #969696;
+    font-weight:500;
+}
+
+.texto1 {
+    font-size: 17px;
+    color: #333333;
+    font-weight:400;
+}
+
+
+
+
+/* Container*/
+
+.container {
+    width: 1000px;
+    margin: 30px auto;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.imagem {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+.clear {
+    clear: both
+}
+
+.copyright {
+    margin-top: 30px;
+}
+
+
+
+
+/* Footer */
+
+.faixa3 {
+    background: linear-gradient(#ffffff, #e6e6e6);
+    box-shadow: -15px 1px 10px grey;
+}
+
+.contato {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+.left {
+    float: left;
+}
+
+.creditos {
+    margin-left: 50px;
+    float:left
+}

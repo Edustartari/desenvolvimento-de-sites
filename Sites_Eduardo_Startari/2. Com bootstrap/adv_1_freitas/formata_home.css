@@ -1,0 +1,299 @@
+body {
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+/* HEADER */
+
+header {
+    background: url(img/header_home.jpg) no-repeat center;
+    background-size: auto;
+    height: 440px
+}
+
+.menu {
+    color: white;
+    padding: 0 12px;
+    font-size: 10pt;
+    font-weight: 500
+}
+
+.menu:hover {
+    color: #F18903;
+    text-decoration: none;
+    border: 1px solid #F18903;
+}
+
+.icone {
+    margin: 0 5px;
+}
+
+.margem1 {
+    padding: 0px 0 0 50px;
+}
+
+.unique {
+    color: white;
+    font-weight: bolder;
+    font-size: 15pt;
+    margin: 200px 0 0 0;
+    text-align: center;
+    width: 50%;
+    text-shadow: 3px 3px 3px black;
+}
+
+
+
+
+
+/* THE FIRM */
+
+.imagem_fundo {
+    background: url(img/home_escritorio.jpg) no-repeat center;
+    background-size: auto;
+}
+
+.firm {
+    color: #ad1010;
+    text-transform: uppercase;
+    font-size: 18pt;
+    font-weight: bold;
+    margin: 60px 0 30px 0;
+}
+
+.see_more {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.see_more:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.margem2 {
+    margin: 100px 0 0 0;
+}
+
+
+
+
+
+
+/* ÁREAS DE ATUAÇÃO */
+
+.fundo {
+    background-color: #F18903;
+}
+
+.area {
+    color: black;
+    font-weight: bolder;
+    margin: 110px 0;
+}
+
+.practice {
+    color: white;
+    text-align: center;
+    padding: 30px 0 20px 0;
+}
+
+.imagem1 {
+    background: url(img/home_atuacao_1.jpg) no-repeat center;
+    background-size: auto;
+    height: 150px;
+    width: 280px;
+}
+
+.imagem2 {
+    background: url(img/home_corporate.jpg) no-repeat center;
+    background-size: auto;
+    height: 150px;
+    width: 280px;
+}
+
+.imagem3 {
+    background: url(img/home_real_estate.jpg) no-repeat center;
+    background-size: auto;
+    height: 150px;
+    width: 280px;
+}
+
+.imagem4 {
+    background: url(img/home_taxation.jpg) no-repeat center;
+    background-size: auto;
+    height: 150px;
+    width: 280px;
+}
+
+.imagem5 {
+    background: url(img/home_private_client.jpg) no-repeat center;
+    background-size: auto;
+    height: 150px;
+    width: 280px;
+}
+
+.imagem6 {
+    background: url(img/home_litigation.jpg) no-repeat center;
+    background-size: auto;
+    height: 150px;
+    width: 280px;
+}
+
+.imagem7 {
+    background: url(img/home_anti_corruption.jpg) no-repeat center;
+    background-size: auto;
+    height: 150px;
+    width: 280px;
+}
+
+.imagem8 {
+    background: url(img/home_antitrust.jpg) no-repeat center;
+    background-size: auto;
+    height: 150px;
+    width: 280px;
+}
+
+
+
+
+
+
+/* RECOGNITIONS */
+
+.recog {
+    color: #44444E;
+    text-align: center;
+    padding: 40px 0 30px 0;
+}
+
+button {
+    padding: 8px 0px;
+    width: 200px;
+    background-color: white;
+    border: 2px solid #44444E;
+    color: ##44444E;
+}
+
+button:hover {
+    color: white;
+    background-color: #44444E
+}
+
+.margem3 {
+    margin: 0 0 50px 0;
+}
+
+.margem4 {
+    margin: 30px 0 0 0;
+}
+
+.margem7 {
+    margin: 0 0 50px 0;
+}
+
+
+
+
+
+
+
+/* OUR TEAM */
+
+.imagem_fundo2 {
+    background: url(img/our_team.jpg) no-repeat center;
+    background-size: auto;
+}
+
+.our_team {
+    color: #F18903;
+    text-transform: uppercase;
+    font-size: 18pt;
+    font-weight: bold;
+    margin: 60px 0 30px 0;
+}
+
+.margem8 {
+    margin: 30px 0 80px 0;
+}
+
+.p {
+    color: black
+}
+
+
+
+
+
+/* CAREERS */
+
+.imagem_fundo3 {
+    background: url(img/careers.jpg) no-repeat center;
+    background-size: auto;
+}
+
+.careers {
+    color: #BB2C2E;
+    text-transform: uppercase;
+    font-size: 18pt;
+    font-weight: bold;
+    margin: 60px 0 30px 0;
+}
+
+.margem5 {
+    margin: 100px 0 0 0;
+}
+
+.p2 {
+    color: black;
+    width: 550px
+}
+
+
+
+
+
+
+/* CONTACT */
+
+.title_contact {
+    color: #BB2C2E;
+    text-transform: uppercase;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.contato {
+    margin: 60px 0 50px 0;
+}
+
+.btn {
+    margin: 15px 0 0 0;
+}
+
+.margem10 {
+    margin: 0px 0 80px 0;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+h5 {
+    color: darkred;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+footer {
+    padding: 30px 0 30px 0;
+    border-top: 1px solid orange;
+}

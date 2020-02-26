@@ -1,0 +1,122 @@
+
+
+
+
+/* HEADER */
+
+header {
+    padding: 25px 0;
+    background-color: white;
+}
+
+.margem1 {
+    margin-top: 10px;   
+}
+
+.menu {
+    color: black;
+    font-family: serif;
+    font-size: 11pt;
+    margin: 0 7px;
+}
+
+.menu:hover {
+    color: #003a74;
+    text-decoration: none;
+}
+
+.margem {
+    margin: 95px 0 0 0;
+}
+
+
+
+/* IMAGEM PRINCIPAL */
+
+.imagem {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/* FAIXA CINZA */
+
+.faixa1 {
+    background-color: #282828;
+    padding: 25px 0
+}
+
+.texto1 {
+    color: white;
+    font-size: 15pt;
+    font-family: serif;
+}
+
+.texto2 {
+    color: gray;
+}
+
+.saiba_mais {
+    color: white;
+    background-color: #333333;
+    padding: 8px 30px; 
+    font-weight: 600;
+}
+
+.saiba_mais:hover {
+    background-color: #2a9ef4;
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px 5px black; 
+}
+
+.margem2 {
+    margin: 20px 0 5px 0;
+}
+
+
+
+
+/* ÁREAS */
+
+.areas {
+    margin: 40px 0;
+}
+
+.areas2 {
+    padding: 5px 0;
+}
+
+
+
+
+
+/* FOOTER */
+
+footer {
+    font-size: 10pt;
+    color: white;
+    background-color: #34495E;
+    padding: 13px;
+}
+
+.endereco {
+    background: url(img/icone_endereco.PNG) no-repeat left center;
+    padding-left: 22px;
+}
+
+.telefone {
+    background: url(img/icone_telefone.PNG) no-repeat left center;
+    padding-left: 24px;
+}
+
+.envelope {
+    background: url(img/icone_envelope.PNG) no-repeat left center;
+    padding-left: 29px;
+}
+

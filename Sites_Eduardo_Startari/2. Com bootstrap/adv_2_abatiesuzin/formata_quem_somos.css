@@ -1,0 +1,115 @@
+
+
+
+
+/* HEADER */
+
+header {
+    padding: 25px 0;
+    background-color: white;
+}
+
+.margem1 {
+    margin-top: 10px;   
+}
+
+.menu {
+    color: black;
+    font-family: serif;
+    font-size: 11pt;
+    margin: 0 7px;
+}
+
+.menu:hover {
+    color: #003a74;
+    text-decoration: none;
+}
+
+.margem {
+    margin: 95px 0 0 0;
+}
+
+
+
+
+
+
+/* FAIXA AZUL TOPO */
+
+.faiza_azul {
+    background-color: #34495E;
+    color: white;
+    font-weight:normal;
+    padding: 35px 0
+}
+
+
+
+
+
+/* VISÃO & MISSÃO */
+
+.paragrafo {
+    font-size: 10pt;
+    color: #4E4E4E;
+}
+
+button {
+    background-color: #34495E;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+}
+
+.botao {
+    border-radius: 1px 1px;
+    font-size: 9pt;
+}
+
+button:hover {
+    color: darkgray;
+}
+
+.margem2 {
+    margin: 30px 0;
+}
+
+.img_escritorio {
+    margin-bottom: 20px;
+}
+
+.img_curriculo {
+    margin: 10px 0 10px 0;
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+footer {
+    font-size: 10pt;
+    color: white;
+    background-color: #34495E;
+    padding: 13px;
+}
+
+.endereco {
+    background: url(img/icone_endereco.PNG) no-repeat left center;
+    padding-left: 22px;
+}
+
+.telefone {
+    background: url(img/icone_telefone.PNG) no-repeat left center;
+    padding-left: 24px;
+}
+
+.envelope {
+    background: url(img/icone_envelope.PNG) no-repeat left center;
+    padding-left: 29px;
+}
+

@@ -1,0 +1,323 @@
+body {
+    margin: 0 auto;
+}
+
+header {
+    width: 1251px;
+    margin: 0 auto;
+}
+
+#cabeca {
+    position: fixed;
+    z-index: 1;
+}
+
+.menu {
+    position: relative;
+    z-index: 2;
+}
+
+.menu a {
+    margin: 0 15px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu2:hover {
+    color: #ff4a00;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ff4a00;
+}
+
+.menu img {
+    transform: translate(35px,55px);
+    margin-right: 80px;
+}
+
+#container {
+    position: relative;
+    z-index: 3;
+    background-color: white;
+    padding: 10px 40px 0 40px;
+    width: 1251px;
+    margin: 0 auto;
+}
+
+.intro {
+    border-bottom: 1px solid #ff4a00;
+    margin-top: 600px;
+}
+
+.titulo {
+    font-size: 30px;
+    color: #ff4a00;
+    text-transform: uppercase
+}
+
+.titulo2 {
+    font-size: 25px;
+    color: gray
+}
+
+.bloco1 {
+    width: 750px;
+    text-align: center;
+    float: left;
+}
+
+.bloco2 {
+    width: 20%;
+    float: left;
+    color: #735e9c;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 150px;
+}
+
+.bloco3 {
+    clear: both;
+    margin-left: 10px;
+    width: 95%;
+}
+
+.bloco3 ul {
+    font-size: 18px;
+    font-family: arial;
+    list-style-image: url(img/list-style.PNG)
+}
+
+.fotos {
+    margin-top: 100px;
+}
+
+.titulo3 {
+    color: gray;
+    margin-bottom: 40px;
+}
+
+.imagem1 {
+    background-image: url(img/home_direito_de_familia.png);
+    width: 555px;
+    height: 340px;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.imagem2 {
+    background-image: url(img/home_direito_trabalhista.png);
+    width: 555px;
+    height: 340px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 30px;
+}
+
+.imagem3 {
+    background-image: url(img/home_direito_imobiliario.png);
+    width: 555px;
+    height: 340px;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.imagem4 {
+    background-image: url(img/home_direito_civil.png);
+    width: 267px;
+    height: 131px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 30px;
+}
+
+.imagem5 {
+    background-image: url(img/home_direito_homo.png);
+    width: 267px;
+    height: 131px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 22px;
+}
+
+.imagem6 {
+    background-image: url(img/home_inventario.png);
+    width: 267px;
+    height: 131px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 30px;
+}
+
+.imagem7 {
+    background-image: url(img/home_danos_morais.png);
+    width: 267px;
+    height: 131px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 22px;
+}
+
+.imagem1:hover {
+    background-color: #539753;
+    background-blend-mode:overlay;
+}
+
+.imagem2:hover {
+    background-color: #539753;
+    background-blend-mode:overlay
+}
+
+.imagem3:hover {
+    background-color: #539753;
+    background-blend-mode:overlay
+}
+
+.imagem3:hover {
+    background-color: #539753;
+    background-blend-mode:overlay
+}
+
+.imagem4:hover {
+    background-color: #539753;
+    background-blend-mode:overlay
+}
+
+.imagem5:hover {
+    background-color: #539753;
+    background-blend-mode:overlay
+}
+
+.imagem6:hover {
+    background-color: #539753;
+    background-blend-mode:overlay
+}
+
+.imagem7:hover {
+    background-color: #539753;
+    background-blend-mode:overlay
+}
+
+.espaco1 {
+    display: block;
+    margin: 50% 40%;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    background-color: azure;
+    padding-bottom: 2px;
+}
+
+span a {
+    color: black;
+}
+
+.espaco2 {
+    display: block;
+    margin: 35% 31%;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    background-color: azure;
+    padding-bottom: 2px;
+}
+
+.clear {
+    clear: both
+}
+
+.sobre {
+    border-top: 1px solid #ff4a00;
+    margin: 20px 0 150px 0;
+}
+
+.sobre p {
+    width: 730px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.sobre img {
+    transform: translate(20px,-50px);
+    float: right
+}
+
+.membros {
+    border-top: 1px solid #ff4a00;
+    padding-top: 30px;
+    margin: 10px 0 50px 0;
+}
+
+.membros img {
+    margin-right: 70px;
+}
+
+.right {
+    float: right
+}
+
+.bottom {
+    background-color: #FCFCFC;
+    border-top: 1px solid #ff4a00;
+}
+
+.titulo4 {
+    color: #ff4a00;
+}
+
+.bloco4 {
+    width: 260px;
+    margin-right: 40px;
+    float: left
+}
+
+.lista {
+    list-style-image: url(img/list-style.PNG);
+}
+
+.lista li a {
+    text-decoration: none;
+    color: black;
+}
+
+.lista li a:hover {
+    color: #ff4a00;
+}
+
+.display {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.texto {
+    display: inline-block;
+    width: 800px;
+    margin: 50px 0 20px 200px;
+}
+
+.termos {
+    color: #ff4a00;
+    text-decoration: none
+}
+
+.left2 {
+    transform: translate(950px, -30px)
+}
+
+.text3 {
+    width: 1251px;
+    margin: 0 auto;
+}
+
+footer {
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+    background-color: #1C0704;
+    padding: 10px 40px 10px 40px;
+    color: white;
+}
